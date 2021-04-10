@@ -1,0 +1,30 @@
+Package: alexr
+Type: Package
+Title: Common routines and datasets for GIS and Big Data Research
+Version: 1.0.0
+Author: Alessandro Saccoia
+Maintainer: Alessandro Saccoia <alessandro.saccoia@gmail.com>
+Description: Contains a collection of:
+    - GIS methods, like geo clustering
+    - functions that are common and useful
+    - AWS athena, presto utilities
+    - maps of Italy (municipalities and provinces)
+License: Copyright (c) Alessandro Saccoia 2019
+Imports:
+    sf,
+    rlang,
+    purrr,
+    dplyr,
+    ggplot2,
+    ggExtra,
+    ggthemes,
+    magic,
+    uuid,
+    poibin,
+    data.table,
+    gridExtra,
+    RPresto,
+    units
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
